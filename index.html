@@ -3,6 +3,7 @@
   <head>
   <title>My Portfolio</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css">
   <!--[if lte IE 8]>
   <script src="js/html5shiv.js"></script>
@@ -11,10 +12,22 @@
   <script src="js/skel.min.js"></script>
   <script src="js/skel-panels.min.js"></script>
   <script src="js/init.js"></script>
+
+
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
   <noscript>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
   <link rel="stylesheet" href="css/skel-noscript.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style-wide.css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   </noscript>
   <!--[if lte IE 9]>
   <link rel="stylesheet" href="css/ie9.css">
@@ -23,21 +36,23 @@
   <link rel="stylesheet" href="css/ie8.css">
   <![endif]-->
   </head>
-  <body>
-  <div id="header" class="skel-panels-fixed">
-    <div class="top">
-      <div id="logo"> <span class="image avatar48"><img src="images/avatar.jpg" alt=""></span>
-        <h1 id="title">Timmy Chi</h1>
-        <span class="byline">Computer Science Engineer</span> </div>
-      <nav id="nav">
-        <ul>
-          <li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>
-          <li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Portfolio</span></a></li>
-          <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="icon icon-user">About Me</span></a></li>
-          <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Contact</span></a></li>
-        </ul>
-      </nav>
-    </div>
+  <body class="home"> 
+    <div id="header" class="skel-panels-fixed">
+      <div class="top">
+        <div id="logo"> <span class="image avatar48"><img src="images/avatar.jpg" alt=""></span>
+          <h1 id="title">Timmy Chi</h1>
+          <span class="byline">Computer Science Engineer</span> </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>
+            <li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Portfolio</span></a></li>
+            <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="icon icon-user">About Me</span></a></li>
+            <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Contact</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    
+
     <!--<div class="bottom">
       <dl class="icons">
         <li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li> 
@@ -46,21 +61,82 @@
         <li><a href="#" class="icon icon-dribbble"><span>Dribbble</span></a></li>
         <li><a href="#" class="icon icon-envelope"><span>Email</span></a></li>
       </dl>
-    </div>-->
+    </div>-->  
   </div>
-  <!--<div id="main">
-    <section id="top" class="one">
-      
-    </section>
-  </div>
-  <div id="footer">
-    <div class="copyright">
-      <p>Timmy Chi </p>
-      <p>Email: chi_timmy@yahoo.com</p>
-      <ul class="menu">-->
-        <!--<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
-      <!--</ul>
-    </div>-->
-  </div>
-  </body>
-  </html>
+
+  <!-- Main Page Content -->
+
+    <div id="main">
+      <div class="container">
+        
+        <div id="myCarousel" class="carousel slide" >
+          <div class="carousel-inner">
+            <div class="item">
+              <img src="img/fillerimg1.jpeg"
+              alt="">
+              <div class="carousel-caption">
+                 <h4>First Thumbnail label</h4>
+
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+                  elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                  vehicula ut id elit.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/fillerimg1.jpeg"
+              alt="">
+              <div class="carousel-caption">
+                 <h4>Second Thumbnail label</h4>
+
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+                  elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                  vehicula ut id elit.</p>
+              </div>
+            </div>
+            <div class="item active">
+              <img src="img/fillerimg1.jpeg"
+              alt="">
+              <div class="carousel-caption">
+                 <h4>Third Thumbnail label</h4>
+
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+                  elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                  vehicula ut id elit.</p>
+              </div>
+            </div>
+          </div> <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+          <a
+          class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+        </div>
+
+        <!-- Three Boxes-->
+        <div class="row ThreeSlopes">
+
+        <div id="SlopeOne">
+        <a href="#"><h4 class="uppercase bodoni">When</h4></a>
+
+        <p></p>
+        <a href="#" class="home-btn">More News >>&nbsp;</a>
+        </div>
+        <div id="SlopeTwo">
+          <a href="#"><h4 class="uppercase bodoni">Events</h4></a>
+          <p></p>
+          <a href="#" class="home-btn">More Events >>&nbsp;</a>
+        </div>
+
+        <div class="SlopeThree">
+          <a href="#"><h4 class="uppercase bodoni">Catering</h4></a>
+
+          <p></p>
+          <a href="#" class="home-btn">Discover More >>&nbsp;</a>                               
+        </div>
+      </div><!--end boxes-->
+      </div><!--end container-->
+    </div><!--end main-->
+
+
+
+  
+</body>
+</html>

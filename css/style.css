@@ -29,12 +29,17 @@
 #logo{
 	padding-left: 40px;
 }
-#logo h1{
-	
-}
+
 /* Footer*/
 .foot{
-	margin-top: 10px;
+	margin-top: 65px;
+}
+.foot p{
+	position: relative;
+	top:-20px;
+	float:left;
+	margin-top: 0px;
+	vertical-align: 5px;
 }
 /* Social Media*/
 .bottom-fb{

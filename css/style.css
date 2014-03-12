@@ -31,16 +31,18 @@
 }
 /* Social Media*/
 .bottom-fb{
-
+	margin-bottom: 5px;
 	float: left;
 	margin-left: 50px;
 
 }
 .bottom-ig{
+	margin-bottom: 5px;
 	margin-left: 20px;
 	float: left;
 }
 .bottom-twit{
+	margin-bottom: 5px;
 	margin-right: 50px;
 	float: right;
 }

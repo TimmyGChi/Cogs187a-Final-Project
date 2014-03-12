@@ -25,22 +25,36 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+/* Side Bar*/
+#logo{
+	padding-left: 40px;
+}
+
 /* Footer*/
 .foot{
-	margin-top: 10px;
+	margin-top: 65px;
+}
+.foot p{
+	position: relative;
+	top:-20px;
+	float:left;
+	margin-top: 0px;
+	vertical-align: 5px;
 }
 /* Social Media*/
 .bottom-fb{
-
+	margin-bottom: 5px;
 	float: left;
 	margin-left: 50px;
 
 }
 .bottom-ig{
+	margin-bottom: 5px;
 	margin-left: 20px;
 	float: left;
 }
 .bottom-twit{
+	margin-bottom: 5px;
 	margin-right: 50px;
 	float: right;
 }

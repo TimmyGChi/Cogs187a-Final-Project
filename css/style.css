@@ -25,7 +25,21 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+/* Social Media*/
+.bottom-fb{
 
+	float: left;
+	margin-left: 50px;
+
+}
+.bottom-ig{
+	margin-left: 20px;
+	float: left;
+}
+.bottom-twit{
+	margin-right: 50px;
+	float: right;
+}
 /* Carousel*/
 .carousel img{
 	width: 50%;

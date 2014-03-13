@@ -27,12 +27,16 @@
 /*********************************************************************************/
 /* Grid */
 .grid{
-	border:solid;
+	border: outset;
 	margin-left: 60px;
 	margin-top: 10px;
 	height: 200px;
+}
+.grid img{
+	margin-right: 10px;
 
-
+	width: 105%;
+	height: 100%;
 }
 
 

@@ -43,7 +43,10 @@
 
 /* Side Bar*/
 #logo{
-	padding-left: 40px;
+	padding-left: 10px;
+}
+.arrow {
+	width: 75%;
 }
 
 /* Footer*/
@@ -57,19 +60,22 @@ footer{
 }
 /* Social Media*/
 .bottom-fb{
+	width: 10px;
 	margin-bottom: 5px;
 	float: left;
-	margin-left: 50px;
+	margin-left: 25px;
 
 }
 .bottom-ig{
+	width: 10px;
 	margin-bottom: 5px;
-	margin-left: 20px;
+	margin-left: 50px;
 	float: left;
 }
 .bottom-twit{
+	width: 10px;
 	margin-bottom: 5px;
-	margin-right: 50px;
+	margin-right: 20px;
 	float: right;
 }
 /* Carousel*/
@@ -389,7 +395,7 @@ left: -500px;
 			
 			.image.avatar48
 			{
-				width: 250px;
+				width: 400px;
 				/*height: 50%;*/
 				/*background: #f00;*/
 				display: block;
@@ -1094,7 +1100,7 @@ left: -500px;
 		width: 375px;
 		height: 100%;
 		color: #fff;
-		background: #222729 url('images/overlay.png');
+		background: #FEF2DA url('images/overla.png');
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.125);
 		text-align: right;
 	}
@@ -1304,9 +1310,3 @@ left: -500px;
 			background-color: #e8edec;
 		}
 
-/*********************************************************************************/
-/* Left Sidebar                                                                         */
-/*********************************************************************************/
-.arrow {
-	width: 75%;
-}

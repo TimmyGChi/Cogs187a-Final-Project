@@ -92,6 +92,10 @@ footer{
 .carousel-caption {
   z-index: 10;
 }
+.carousel-caption h1{
+	color: black;
+	
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {

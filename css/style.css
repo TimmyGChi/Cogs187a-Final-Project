@@ -42,25 +42,6 @@
 	font-weight: bold;	
 	font-size: 20px;
 }
-.grid1{
-
-	margin-left: 60px;
-	margin-top: 10px;
-	height: 200px;
-}
-.grid1 img{
-	padding-bottom: 10px;
-
-}
-.grid2{
-
-	margin-left: 60px;
-	margin-top: 10px;
-	height: 200px;
-}
-.grid2 img{
-	padding-bottom: 20px;
-}
 /* Side Bar*/
 #logo{
 	padding-left: 10px;

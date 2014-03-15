@@ -487,7 +487,7 @@ html>body .entry ul,
 	margin-right: 10px;
 }
 .main-bg{
-
+	background-color: #cfbf9e;
 }
 /* Grid */
 .grid{
@@ -1533,8 +1533,9 @@ footer{
 		width: 375px;
 		height: 100%;
 		color: #fff;
-		background: #FEF2DA url('images/overla.png');
-		box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.125);
+		background: #FEF2DA url('img/b.png');
+		background-repeat:repeat-y;*/
+		/*box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.125);*/
 		text-align: right;
 	}
 	

@@ -102,7 +102,7 @@ footer{
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: #fff;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -110,6 +110,7 @@ footer{
   left: 0;
   min-width: 100%;
   height: 500px;
+  background-color: #fff;
 }
 
 /* end carousel */
@@ -459,7 +460,7 @@ footer{
 			{
 				border-left: 0;
 				padding-left: 0;
-				margin-left: 0;
+				margin-left: 0;f
 			}
 
 		ol.default
@@ -1212,7 +1213,7 @@ footer{
 	{
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #fef2da;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.05), inset 0 0.1em 0.1em 0 rgba(0,0,0,0.025);
 		font-size: 0.8em;

@@ -14,13 +14,17 @@
 	font-style: normal;
 }*/
 
-/*font we choose on google*/
+/*font we choose*/
+/*content font*/
 @font-face {
   font-family: 'Gafata';
   font-style: normal;
   font-weight: 400;
   src: local('Gafata'), local('Gafata-Regular'), url(http://themes.googleusercontent.com/static/fonts/gafata/v3/QgBsUT7IYkuK0zcmWhu2q-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
+/*bold font*/
+@font-face{font-family: BebasNeue;src: url("/fonts/BebasNeue.otf");}
+div{font-family: BebasNeue;}
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -586,8 +590,8 @@ footer{
 
 .ThreeSlopes h2{
     color: black;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: BebasNeue, Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin: 0px;
     padding-top: 5px;
@@ -598,8 +602,8 @@ footer{
 .ThreeSlopes h6
 {
     color: black;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: BebasNeue, Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin: 0px;
     padding-right: 10px;
@@ -608,6 +612,8 @@ footer{
 }
 .ThreeSlopes p{
     color: black;
+    font-size: 15px;
+    font-family: Gafata, Arial, Helvetica, sans-serif;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -629,6 +635,9 @@ footer{
     text-decoration: none;
 }
 #SlopeOne {
+	columns:80px 5;
+	-webkit-columns:80px 5; /* Safari and Chrome */
+	-moz-columns:80px 5; /* Firefox */
     float: left;
     background-repeat: no-repeat;
     width: 70%;

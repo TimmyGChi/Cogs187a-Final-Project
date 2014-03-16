@@ -1,7 +1,7 @@
   <!DOCTYPE HTML>
   <html>
   <head>
-  <title>Our Trucks</title>
+  <title>Hunger on Wheels</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,30 +12,27 @@
   <!--[if lte IE 8]>
   <script src="js/html5shiv.js"></script>
   <![endif]-->
-  <!-- Bootstrap -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/skel.min.js"></script>
+  <script src="js/skel-panels.min.js"></script>
+  <script src="js/init.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel = "stylesheet" type= "text/css" href="css/ourtrucks.css">
-  <link rel = "stylesheet" type= "text/css" href="css/style.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel = "stylesheet" type= "text/css" href="css/ourtrucks.css">
+
+
+
+  <noscript>
+
+  
+  <link rel="stylesheet" type="text/css" href="css/skel-noscript.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/style-wide.css">
 
-
-    
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  
-  
-
-
- 
-
+  </noscript>
   <!--[if lte IE 9]>
   <link rel="stylesheet" href="css/ie9.css">
   <![endif]-->
@@ -43,8 +40,8 @@
   <link rel="stylesheet" href="css/ie8.css">
   <![endif]-->
   </head>
-  <body class="home"> 
-    <div id="header" class="skel-panels-fixed">
+  <body > 
+    <div id="header" class="page-bg">
       <div class="top">
         <div id="logo"> <a href="#" class="image avatar48"><img src="img/foodtrucklogo3.png" alt=""></a>
            </div>
@@ -67,12 +64,18 @@
 
     </div>
   </div>
-    <!--/Sidebar-->
 
-    <div id="main" class = "main-bg">
+
+
+
+
+  <!-- Main Page Content -->
+
+    <div id="main" class="main-bg">
       <div class="container">
+        
         <div class="page-header">
-          <center><h4>Our Trucks</h4></center>
+          <center><img src = "img/ourtruckslogo.png"></center>
         </div>
         
 
@@ -90,7 +93,14 @@
             </div>
             <div id="collapseSix" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>“Food is our Passion. This is our outlet.”</p>
+                <div class = "col-xs-2">
+                  <img src = "img/RedOven.jpg" class = "collapse-logo">
+                </div>
+
+                <div class = "col-xs-10">
+                  Located in San Diego, RED OVEN is casual, upscale, full-service catering food truck specializing in authentic pizza Napoletana and wood oven cuisine.
+                  Authentic Pizza Napoletana -The original pizza. Simple, elegant, and fresh! The perfect dough makes the first bite extraordinary. When you experience this, you will become a passionate pizza enthusiast. RED OVEN will bring "La Vera Pizza Napoletana" to you!
+                </div>
               </div>
             </div>
           </div>
@@ -109,11 +119,15 @@
             </div>
             <div id="collapseOne" class="panel-collapse collapse">
               <div class="panel-body">
+                <div class = "col-xs-2">
+                  <img src = "img/RedOven.jpg" class = "collapse-logo">
+                </div>
 
-                <div>
+                <div class = "col-xs-10">
                   <p>CASANOVA Fish Tacos objective is to bring to the customer the real Baja style fish taco experience. The blend of spices used in the batter has been a 3 year process to become perfected. The famous and most flavorful spicy pico de gallo which is customer favorite, the tomatillo based salsa with habanero for that extra kick and 3rd place winner at the 2010 Del Mair Fair and the secret white sauce are all original recipes created from scratch.</p>
                 </div>
               </div>
+              
             </div>
           </div>
 
@@ -163,8 +177,14 @@
             </div>
             <div id="collapseFour" class="panel-collapse collapse">
               <div class="panel-body">
-                Located in San Diego, RED OVEN is casual, upscale, full-service catering food truck specializing in authentic pizza Napoletana and wood oven cuisine.
-                Authentic Pizza Napoletana -The original pizza. Simple, elegant, and fresh! The perfect dough makes the first bite extraordinary. When you experience this, you will become a passionate pizza enthusiast. RED OVEN will bring "La Vera Pizza Napoletana" to you!
+                <div class = "col-xs-2">
+                  <img src = "img/RedOven.jpg" class = "collapse-logo">
+                </div>
+
+                <div class = "col-xs-10">
+                  Located in San Diego, RED OVEN is casual, upscale, full-service catering food truck specializing in authentic pizza Napoletana and wood oven cuisine.
+                  Authentic Pizza Napoletana -The original pizza. Simple, elegant, and fresh! The perfect dough makes the first bite extraordinary. When you experience this, you will become a passionate pizza enthusiast. RED OVEN will bring "La Vera Pizza Napoletana" to you!
+                </div>
               </div>
             </div>
           </div>
@@ -294,23 +314,24 @@
               </div>
             </div>
           </div>
-
-          
-
-
-          
-
         </div>
-        <!--end of menu-->
+
+
+
+
+
 
       </div>
     </div>
-  
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  <div class="footer">
+    <p>Questions? Call us M-F 9-5pm PST 805-639-9825 email: hungeronwheels@gmail.com</p>
+    <p>Designed by Cindy Chen, Jasmine Chan, Tim Chi</p>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    
-  
-  </body>
+</body>
 </html>

@@ -34,7 +34,7 @@
 /*Footer*/
 
 .footer{
-	background-color: #7B7F7B;
+	background-color: #a3a29f;
 	height: 100%;
 }
 .footer p{
@@ -579,6 +579,9 @@ html>body .entry ul,
 	text-align: center;
 	font-weight: bold;	
 	font-size: 20px;
+}
+#tofname {
+	font-family: BebasNeue, Arial, Helvetica, sans-serif;
 }
 
 /* Side Bar*/

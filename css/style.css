@@ -31,6 +31,17 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+/*Footer*/
+
+.footer{
+	background-color: black;
+	height: 100%;
+}
+.footer p{
+	text-align: center;
+	color: white;
+}
+
 /*Catering css*/
 
 .catering img{
@@ -44,6 +55,12 @@
 }
 .catering h2{
 	margin-left: 5px;
+}
+.catering-header{
+	height: 951px;
+}
+.whoweare-header{
+	height: 1158px;
 }
 /*Form Section*/
 .gform_wrapper {
@@ -640,7 +657,7 @@ footer{
 
 /*3 boxes*/
 .ThreeSlopes {
-    overflow: auto;
+
     padding: 10px;
     text-align: left;
 
@@ -708,6 +725,7 @@ footer{
     /*margin-top: 20px;*/
     background-repeat: no-repeat;
     width: 28%;
+    overflow: auto;
 }
 
 /* end 3 boxes*/
@@ -1160,6 +1178,7 @@ footer{
 
 			/*For Submit button in Catering page*/
 			margin-left: 15px;
+			margin-bottom: 10px;
 		}
 
 			.button:hover
@@ -1596,11 +1615,11 @@ footer{
 	
 	#header
 	{
-		position: fixed;
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 375px;
-		height: 100%;
+
 		color: #fff;
 		background: #FEF2DA url('img/b.png');
 		/*background-repeat:repeat-y;*/
@@ -1610,7 +1629,7 @@ footer{
 	
 		#header .top
 		{
-			position: absolute;
+			position: relative;
 			left: 0;
 			top: 0;
 			width: 100%;
@@ -1645,6 +1664,10 @@ footer{
 				{
 					color: #fff;
 				}
+	.page-bg{
+		background-color: #FEF2DA;
+		height: 92.8%;
+	}
 
 	#logo
 	{

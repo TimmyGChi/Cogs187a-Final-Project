@@ -31,6 +31,10 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+p#aboutpage{
+	font-size: 20px;
+	font-family: gafata;
+}
 /*Footer*/
 
 .footer{
@@ -580,7 +584,7 @@ html>body .entry ul,
 }
 .grid p{
 	text-align: center;
-	font-weight: bold;
+	font-family: gafata;
 	font-size: 20px;
 
 }
@@ -661,7 +665,7 @@ footer{
 
 /*3 boxes*/
 .ThreeSlopes {
-
+	margin-top: -50px;
     padding: 10px;
     text-align: left;
 
@@ -1201,7 +1205,7 @@ footer{
 			transition: background-color 0.35s ease-in-out;
 
 			/*For Submit button in Catering page*/
-			margin-left: 15px;
+			margin-left: 1px;
 			margin-bottom: 10px;
 		}
 

@@ -38,12 +38,15 @@
 	height: 100%;
 }
 .footer p{
-	text-align: center;
+	text-align: right;
 	color: black;
-	font-family: gafata;
+	font-family: Gafata;
 }
 
 /*Catering css*/
+.catering{
+	margin-right: 20px;
+}
 
 .catering img{
 	width: 250px;
@@ -677,9 +680,15 @@ footer{
 }
 .uppercase bodoni{
 	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+	font-size: 24px;
 }
-.weekdays {
+#weekdays {
 	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+#map {
+	width: 100%;
+	padding-right: 50px;
 }
 .ThreeSlopes h6
 {

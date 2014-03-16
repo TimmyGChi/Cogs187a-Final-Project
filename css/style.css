@@ -34,12 +34,13 @@
 /*Footer*/
 
 .footer{
-	background-color: black;
+	background-color: #7B7F7B;
 	height: 100%;
 }
 .footer p{
 	text-align: center;
-	color: white;
+	color: black;
+	font-family: gafata;
 }
 
 /*Catering css*/

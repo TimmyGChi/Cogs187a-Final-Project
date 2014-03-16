@@ -577,8 +577,9 @@ html>body .entry ul,
 }
 .grid p{
 	text-align: center;
-	font-weight: bold;	
+	font-weight: bold;
 	font-size: 20px;
+
 }
 #tofname {
 	font-family: BebasNeue, Arial, Helvetica, sans-serif;
@@ -650,7 +651,9 @@ footer{
   height: 500px;
   background-color: #fff;
 }
-
+.carousel img{
+	height: 500px;
+}
 /* end carousel */
 
 /*3 boxes*/

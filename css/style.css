@@ -674,9 +674,11 @@ footer{
 }
 .uppercase bodoni{
 	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+	font-size: 24px;
 }
-.weekdays {
+#weekdays {
 	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }
 .ThreeSlopes h6
 {

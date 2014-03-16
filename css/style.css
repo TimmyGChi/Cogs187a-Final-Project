@@ -29,8 +29,26 @@ div{font-family: BebasNeue;}
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-/*Catering css*/
+/*Footer*/
 
+.footer{
+	background-color: black;
+	height: 100%;
+}
+.footer p{
+	text-align: center;
+	color: white;
+}
+
+/*Catering css*/
+.catering{
+	background-color: #cfbf9e;
+
+}
+.catering .thumbnail{
+	margin-left: 20px;
+	margin-right: 10px;
+}
 .catering img{
 	width: 250px;
 	height:170px;
@@ -42,6 +60,9 @@ div{font-family: BebasNeue;}
 }
 .catering h2{
 	margin-left: 5px;
+}
+.catering-header{
+	height: 956px;
 }
 /*Form Section*/
 .gform_wrapper {
@@ -542,12 +563,10 @@ html>body .entry ul,
 /*End Form Section*/
 /*end catering*/
 
-.catering .thumbnail{
-	margin-left: 20px;
-	margin-right: 10px;
-}
+
 .main-bg{
 	background-color: #cfbf9e;
+	height:780px;
 }
 /* Grid */
 .grid{
@@ -655,6 +674,9 @@ footer{
     padding-bottom: 5px;
 
 }
+.ThreeSlopes h5{
+	margin-top: -.3px;
+}
 .ThreeSlopes h6
 {
     color: black;
@@ -691,9 +713,7 @@ footer{
     text-decoration: none;
 }
 #SlopeOne {
-	columns:80px 5;
-	-webkit-columns:80px 5; /* Safari and Chrome */
-	-moz-columns:80px 5; /* Firefox */
+	
     float: left;
     background-repeat: no-repeat;
     width: 70%;
@@ -701,6 +721,15 @@ footer{
     margin-left: 5px;
     height: 200px;
     overflow: auto;	
+}
+#SlopeOne table{
+	padding-top: 10px;	
+}
+#SlopeOne th{
+	font-weight: bold;
+}
+#SlopeOne td{
+	padding-left: 5px;
 }
 
 #SlopeTwo {
@@ -711,7 +740,9 @@ footer{
     /*margin-top: 20px;*/
     background-repeat: no-repeat;
     width: 28%;
+    overflow: auto;
 }
+
 
 /* end 3 boxes*/
 
@@ -1158,7 +1189,8 @@ footer{
 			transition: background-color 0.35s ease-in-out;
 
 			/*For Submit button in Catering page*/
-			margin-left: 15px;
+			margin-left: 1px;
+			margin-bottom: 15px;
 		}
 
 			.button:hover
@@ -1595,17 +1627,19 @@ footer{
 	
 	#header
 	{
-		position: fixed;
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 375px;
-		height: 100%;
-		color: #fff;
-		background: #FEF2DA url('img/b.png');
+
+		color: #FEF2DA;
+		background-color: #FEF2DA;
+		background: #FEF2DA;
 		/*background-repeat:repeat-y;*/
 		/*box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.125);*/
 		text-align: right;
 	}
+
 	
 		#header .top
 		{
@@ -1644,6 +1678,10 @@ footer{
 				{
 					color: #fff;
 				}
+	.page-bg{
+		background-color: #FEF2DA;
+		height: 92.8%;
+	}
 
 	#logo
 	{

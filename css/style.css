@@ -1846,3 +1846,9 @@ footer{
 	width: 20%;
 
 }
+.leftimg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+

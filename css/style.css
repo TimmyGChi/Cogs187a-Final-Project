@@ -683,6 +683,10 @@ footer{
 	font-family: BebasNeue, Arial, Helvetica, sans-serif;
 	font-size: 18px;
 }
+#map {
+	width: 100%;
+	padding-right: 50px;
+}
 .ThreeSlopes h6
 {
     color: black;

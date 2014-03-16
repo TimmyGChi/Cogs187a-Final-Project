@@ -1,0 +1,34 @@
+
+/*font we choose*/
+/*content font*/
+@font-face {
+  font-family: 'Gafata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gafata'), local('Gafata-Regular'), url(http://themes.googleusercontent.com/static/fonts/gafata/v3/QgBsUT7IYkuK0zcmWhu2q-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+/*bold font*/
+@font-face{font-family: BebasNeue;src: url("/fonts/BebasNeue.otf");}
+div{font-family: BebasNeue;}
+
+/*main content*/
+h1{
+	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+	font-size: 25px; 
+	color: #f03f35;
+}
+
+#main {
+	font-family: Gafata, Arial, Helvetica, sans-serif;
+	font-size: 45px;
+}
+p {
+	font-size: 45px;
+}
+.leftimg {
+	width: 50%;
+}
+
+.about {
+	width: 10px;
+}

@@ -1,26 +1,15 @@
+
+@font-face {
+  font-family: 'Gafata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gafata'), local('Gafata-Regular'), url(http://themes.googleusercontent.com/static/fonts/gafata/v3/QgBsUT7IYkuK0zcmWhu2q-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
 .glyphicon{
 	float: right;
 }
 
-.panel{
-	height:50px;
-
-}
-
 .panel-heading{
-	height: 50px;
-}
-
-.panel-header-text h4{
-	font-family: Impact;
-	font-size: 20px;
-	margin:0px;
-}
-
-.panel-header-text{
-	font-family: Impact;
-	font-size: 18px;
-	color: #000;
-	margin: 0px;
-
+	color: #BDDEB3;
 }

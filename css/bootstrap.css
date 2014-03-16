@@ -545,8 +545,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+
 }
 h4 small,
 .h4 small,
@@ -684,9 +683,8 @@ a.bg-danger:hover {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+
+  /*border-bottom: 1px solid #eee;*/
 }
 ul,
 ol {
@@ -855,26 +853,11 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+ 
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -4895,6 +4878,7 @@ a.list-group-item-danger.active:focus {
   line-height: 1.3;
 }
 .panel {
+  margin-right:10px;
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
@@ -4908,6 +4892,7 @@ a.list-group-item-danger.active:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
+  background-color: #BDDEB3;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -4917,7 +4902,7 @@ a.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 50px;
   color: inherit;
 }
 .panel-title > a {
@@ -5096,7 +5081,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #FEBD55;
   border-color: #ddd;
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {

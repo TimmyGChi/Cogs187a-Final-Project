@@ -14,41 +14,25 @@
 	font-style: normal;
 }*/
 
-/*font we choose*/
-/*content font*/
+/*font we choose on google*/
 @font-face {
   font-family: 'Gafata';
   font-style: normal;
   font-weight: 400;
   src: local('Gafata'), local('Gafata-Regular'), url(http://themes.googleusercontent.com/static/fonts/gafata/v3/QgBsUT7IYkuK0zcmWhu2q-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
-/*bold font*/
-@font-face{font-family: BebasNeue;src: url("/fonts/BebasNeue.otf");}
-div{font-family: BebasNeue;}
+
+@font-face{
+	font-family: BebasNeue;
+	src: url("/fonts/BebasNeue.otf");
+}
+
 
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-/*Footer*/
-
-.footer{
-	background-color: black;
-	height: 100%;
-}
-.footer p{
-	text-align: center;
-	color: white;
-}
-
 /*Catering css*/
-.catering{
-	background-color: #cfbf9e;
 
-}
-.catering .thumbnail{
-	margin-left: 20px;
-	margin-right: 10px;
-}
 .catering img{
 	width: 250px;
 	height:170px;
@@ -60,9 +44,6 @@ div{font-family: BebasNeue;}
 }
 .catering h2{
 	margin-left: 5px;
-}
-.catering-header{
-	height: 956px;
 }
 /*Form Section*/
 .gform_wrapper {
@@ -563,10 +544,12 @@ html>body .entry ul,
 /*End Form Section*/
 /*end catering*/
 
-
+.catering .thumbnail{
+	margin-left: 20px;
+	margin-right: 10px;
+}
 .main-bg{
 	background-color: #cfbf9e;
-	height:780px;
 }
 /* Grid */
 .grid{
@@ -665,8 +648,8 @@ footer{
 
 .ThreeSlopes h2{
     color: black;
-    font-size: 40px;
-    font-family: BebasNeue, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin: 0px;
     padding-top: 5px;
@@ -674,14 +657,11 @@ footer{
     padding-bottom: 5px;
 
 }
-.ThreeSlopes h5{
-	margin-top: -.3px;
-}
 .ThreeSlopes h6
 {
     color: black;
-    font-size: 20px;
-    font-family: BebasNeue, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin: 0px;
     padding-right: 10px;
@@ -690,8 +670,6 @@ footer{
 }
 .ThreeSlopes p{
     color: black;
-    font-size: 15px;
-    font-family: Gafata, Arial, Helvetica, sans-serif;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -713,7 +691,6 @@ footer{
     text-decoration: none;
 }
 #SlopeOne {
-	
     float: left;
     background-repeat: no-repeat;
     width: 70%;
@@ -721,15 +698,6 @@ footer{
     margin-left: 5px;
     height: 200px;
     overflow: auto;	
-}
-#SlopeOne table{
-	padding-top: 10px;	
-}
-#SlopeOne th{
-	font-weight: bold;
-}
-#SlopeOne td{
-	padding-left: 5px;
 }
 
 #SlopeTwo {
@@ -740,9 +708,7 @@ footer{
     /*margin-top: 20px;*/
     background-repeat: no-repeat;
     width: 28%;
-    overflow: auto;
 }
-
 
 /* end 3 boxes*/
 
@@ -761,13 +727,17 @@ footer{
 		-webkit-text-stroke: 0.15px;
 	}
 
-	h1,h2,h3,h4,h5,h6
+	h1,h2,h3,h5,h6
 	{
 		font-weight: 200;
 		color: #666;
 		line-height: 1.5em;
 	}
 	
+	h4{
+		font-family: BebasNeue;
+		font-size: 50px;
+	}
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
@@ -1189,8 +1159,7 @@ footer{
 			transition: background-color 0.35s ease-in-out;
 
 			/*For Submit button in Catering page*/
-			margin-left: 1px;
-			margin-bottom: 15px;
+			margin-left: 15px;
 		}
 
 			.button:hover
@@ -1627,19 +1596,17 @@ footer{
 	
 	#header
 	{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 375px;
-
-		color: #FEF2DA;
-		background-color: #FEF2DA;
-		background: #FEF2DA;
+		height: 100%;
+		color: #fff;
+		background: #FEF2DA url('img/b.png');
 		/*background-repeat:repeat-y;*/
 		/*box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.125);*/
 		text-align: right;
 	}
-
 	
 		#header .top
 		{
@@ -1678,10 +1645,6 @@ footer{
 				{
 					color: #fff;
 				}
-	.page-bg{
-		background-color: #FEF2DA;
-		height: 92.8%;
-	}
 
 	#logo
 	{
@@ -1724,10 +1687,13 @@ footer{
 	
 		#nav ul
 		{
+			text-decoration: none;
+			list-style: none;
 		}
 		
 			#nav ul li
 			{
+				text-decoration: none;
 			}
 			
 				#nav ul li a

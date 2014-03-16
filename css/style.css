@@ -669,6 +669,12 @@ footer{
     padding-bottom: 5px;
 
 }
+.uppercase bodoni{
+	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+}
+.weekdays {
+	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+}
 .ThreeSlopes h6
 {
     color: black;
@@ -706,26 +712,29 @@ footer{
     float: left;
     background-repeat: no-repeat;
     width: 70%;
-    border: solid;
+    /*border: solid;*/
     margin-left: 5px;
     height: 200px;
     overflow: auto;	
+    background-color: #fef2da;
 }
 #SlopeOne th{
 	font-weight: bold;
 }
 #SlopeOne td{
 	padding-left: 5px;
+
 }
 #SlopeTwo {
     float: left;
     margin-left: 10px;
-    border: solid;
+    /*border: solid;*/
     height: 200px;
     /*margin-top: 20px;*/
     background-repeat: no-repeat;
     width: 28%;
     overflow: auto;
+    background-color: #fef2da;
 }
 
 /* end 3 boxes*/
